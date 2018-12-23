@@ -1,0 +1,6 @@
+#!/bin/bash
+# parameterised 
+echo "this is it"
+echo "this is passed $PASSED"
+NUM=$(($FIRSTNUMBER + $SECONDNUMBER))
+echo "$NUM"
